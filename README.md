@@ -1,4 +1,6 @@
-﻿Dataset description: Magnetoencephalography (MEG) dataset recorded during a hMT+ (human visual motion area) localizer task
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on003392-blue)](https://doi.org/10.82901/nemar.on003392)
+
+Dataset description: Magnetoencephalography (MEG) dataset recorded during a hMT+ (human visual motion area) localizer task
 
 Published in: 
 Zilber, N., Ciuciu, P., Gramfort, A., Azizi, L., & Van Wassenhove, V. (2014). Supramodal processing optimizes visual perceptual learning and plasticity. Neuroimage, 93, 32-46.
