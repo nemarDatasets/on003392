@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "NeuroSpin hMT+ Localizer DATA (MEG & aMRI)",
+  "description": "This magnetoencephalography (MEG) dataset comprises recordings from 10 participants performing a human visual motion area (hMT+) localizer task involving passive viewing of coherent and incoherent moving dot stimuli. The dataset includes concurrent anatomical MRI scans and auxiliary physiological recordings (EOG, ECG), formatted according to MEG-BIDS standards. The data were acquired to investigate visual perceptual learning and motion perception mechanisms.",
+  "methods_description": "MEG data were recorded using a 306-channel Neuromag Elekta system at 2 kHz sampling rate with 0.03–600 Hz band-pass filtering. Head position was tracked with four HPI coils before each block, and anatomical landmarks (nasion, pre-auricular points) were digitized. Concurrent EOG and ECG recordings were obtained. T1-weighted anatomical MRI was acquired on a 3-T Siemens Trio scanner (voxel size 1.0 × 1.0 × 1.1 mm, TR = 2300 ms, TE = 2.98 ms). Empty room recordings (5 min) were acquired for noise covariance estimation.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -15,12 +17,39 @@
       "orcid": "0000-0002-2569-5502"
     }
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds003392.v1.0.4",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "MEG"
     },
+    {
+      "term": "motion perception"
+    },
+    {
+      "term": "visual cortex"
+    },
+    {
+      "term": "hMT+"
+    },
+    {
+      "term": "perceptual learning"
+    },
+    {
+      "term": "neuroimaging"
+    },
+    {
+      "term": "hMT+ localizer"
+    },
+    {
+      "term": "BIDS"
+    },
+    {
+      "term": "MEG-BIDS"
+    },
+    {
+      "term": "anatomical MRI"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "10.1016/j.neuroimage.2014.02.017",
       "identifier_type": "DOI",
@@ -45,6 +74,11 @@
       "identifier": "10.1038/sdata.2018.110",
       "identifier_type": "DOI",
       "relation_type": "References"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds003392.v1.0.4",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -63,13 +97,13 @@
       "award_title": "Schubert"
     }
   ],
+  "resource_type_specific": "Structural MRI Dataset",
   "modalities": [
     "anat",
     "meg"
   ],
-  "resource_type_specific": "Structural MRI Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "10.8 GB (36 files)"
   ],
   "formats": [
     ".dat",
@@ -78,34 +112,8 @@
     ".gz",
     ".json",
     ".md",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "This magnetoencephalography (MEG) dataset comprises recordings from 10 participants performing a human visual motion area (hMT+) localizer task involving passive viewing of coherent and incoherent moving dot stimuli. The dataset includes concurrent anatomical MRI scans and auxiliary physiological recordings (EOG, ECG), formatted according to the MEG-BIDS standard. The data were collected to investigate supramodal processing and visual perceptual learning mechanisms.",
-  "methods_description": "MEG data were acquired using a 306-channel Neuromag Elekta system at 2 kHz sampling rate with 0.03–600 Hz band-pass filtering. Head position was tracked using four HPI coils before each block, with anatomical reference via three fiducial markers. Participants passively viewed 120 trials of moving dot stimuli (50% coherent, 50% incoherent; 1500 ms duration per trial). Concurrent EOG and ECG recordings were obtained. Anatomical T1-weighted MRI was acquired on a 3-T Siemens Trio scanner (1.0 × 1.0 × 1.1 mm voxels; TR = 2300 ms; TE = 2.98 ms). Empty room recordings (5 min) were acquired for noise covariance estimation.",
-  "keywords": [
-    {
-      "term": "Magnetoencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
-    },
-    {
-      "term": "MEG"
-    },
-    {
-      "term": "visual motion perception"
-    },
-    {
-      "term": "hMT+ localizer"
-    },
-    {
-      "term": "motion coherence"
-    },
-    {
-      "term": "perceptual learning"
-    },
-    {
-      "term": "BIDS"
-    }
-  ],
-  "source_hash": "7f51bb4ebf9fd92370add16e3484ab3b760e84184b867cde4574ff2f544b9eb6"
+  "source_hash": "dd655a9b1c80279976ae3804cf94ab58d86da20f66123504e44910b9e82f5152"
 }
